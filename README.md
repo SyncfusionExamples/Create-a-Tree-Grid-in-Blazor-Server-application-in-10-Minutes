@@ -1,0 +1,2 @@
+# Create-a-Tree-Grid-in-Blazor-Server-application-in-10-Minutes
+A quick-start project that helps you create the Blazor TreeGrid of Syncfusion using the "dotnet add" command of Blazor schematics. This sample explains how to add columns and show parent-child flat data using the expand and collapse options. You can also learn how to add useful features to the TreeGrid: paging, sorting, and filtering.
