@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using GettingStarted.Data;
-using Syncfusion.EJ2.Blazor;
+using Syncfusion.Blazor;
 
 namespace GettingStarted
 {
