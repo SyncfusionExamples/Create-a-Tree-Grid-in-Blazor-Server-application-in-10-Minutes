@@ -1,26 +1,27 @@
 ﻿@page "/"
 
-<EjsTreeGrid DataSource="@TreeData" IdMapping="TaskId" ParentIdMapping="ParentId" TreeColumnIndex="1"
-AllowPaging="true" AllowSorting="true" AllowFiltering="true">
-<TreeGridPageSettings PageSizeMode="PageSizeMode.Root" PageSize="2"></TreeGridPageSettings>
-<TreeGridSortSettings>
-    <TreeGridSortColumns>
-        <TreeGridSortColumn Field="Progress" Direction="Syncfusion.EJ2.Blazor.Grids.SortDirection.Descending"></TreeGridSortColumn>
-        <TreeGridSortColumn Field="Duration" Direction="Syncfusion.EJ2.Blazor.Grids.SortDirection.Ascending"></TreeGridSortColumn>
-    </TreeGridSortColumns>
-</TreeGridSortSettings>
+<SfTreeGrid DataSource="@TreeData" IdMapping="TaskId" ParentIdMapping="ParentId" TreeColumnIndex="1"
+            AllowPaging="true" AllowSorting="true" AllowFiltering="true">
+    <TreeGridPageSettings PageSizeMode="PageSizeMode.Root" PageSize="2"></TreeGridPageSettings>
+    <TreeGridSortSettings>
+        <TreeGridSortColumns>
+            <TreeGridSortColumn Field="Progress" Direction="Syncfusion.Blazor.Grids.SortDirection.Descending"></TreeGridSortColumn>
+            <TreeGridSortColumn Field="Duration" Direction="Syncfusion.Blazor.Grids.SortDirection.Ascending"></TreeGridSortColumn>
+        </TreeGridSortColumns>
+    </TreeGridSortSettings>
     <TreeGridColumns>
-        <TreeGridColumn Field="TaskId" HeaderText="Task ID" Width="80" TextAlign="Syncfusion.EJ2.Blazor.Grids.TextAlign.Right"></TreeGridColumn>
+        <TreeGridColumn Field="TaskId" HeaderText="Task ID" Width="80" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Right"></TreeGridColumn>
         <TreeGridColumn Field="TaskName" HeaderText="Task Name" Width="160"></TreeGridColumn>
-        <TreeGridColumn Field="Duration" HeaderText="Duration" Width="100" TextAlign="Syncfusion.EJ2.Blazor.Grids.TextAlign.Right"></TreeGridColumn>
-        <TreeGridColumn Field="Progress" HeaderText="Progress" Width="100" TextAlign="Syncfusion.EJ2.Blazor.Grids.TextAlign.Right"></TreeGridColumn>
+        <TreeGridColumn Field="Duration" HeaderText="Duration" Width="100" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Right"></TreeGridColumn>
+        <TreeGridColumn Field="Progress" HeaderText="Progress" Width="100" TextAlign="Syncfusion.Blazor.Grids.TextAlign.Right"></TreeGridColumn>
         <TreeGridColumn Field="Priority" HeaderText="Priority" Width="80"></TreeGridColumn>
     </TreeGridColumns>
-</EjsTreeGrid>
+</SfTreeGrid>
 
 @code{
 
-    public class BusinessObject{
+    public class BusinessObject
+    {
         public int TaskId { get; set; }
         public string TaskName { get; set; }
         public int Duration { get; set; }
