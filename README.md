@@ -6,16 +6,15 @@ Watch the video now: https://www.syncfusion.com/tutorial-videos/blazor/tree-grid
 
 Documentation: https://blazor.syncfusion.com/documentation/treegrid/getting-started
 
-Online example: https://blazor.syncfusion.com/demos/TreeGrid/DefaultFunctionalities
+Online example: https://blazor.syncfusion.com/demos/tree-grid/default-functionalities
 
-## Project prerequisites
-Make sure you have the compatible version of .NET Core on your machine before starting to work on this project. You also need the following:
-* [Visual Studio 2019 (version 16.4+)]( https://visualstudio.microsoft.com/downloads)
-* [.NET Core SDK 3.1.2+](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+## Prerequisites
 
-## How to run this application
-To run this application, you need to first clone or download this ‘Create a Tree Grid in Blazor Server application in 10 Minutes’ repository and then open it in Visual Studio 2019. Now, build and run your project to view the output.
+* Visual Studio 2022
 
-## Further help
+## How to run the project
 
-To get more help, check out the [ASP.NET Core Blazor documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor).
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
